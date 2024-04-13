@@ -1,23 +1,2 @@
 @media (max-width: 450px){.smaller-screen-address.svelte-1yp2l2d{font-size:10px}}.copied-message.svelte-1yp2l2d{position:fixed;top:20px;left:50%;transform:translate(-50%);background-color:#000c;color:#fff;padding:10px 20px;border-radius:5px;animation:svelte-1yp2l2d-fadeOut 1s ease forwards}@keyframes svelte-1yp2l2d-fadeOut{0%{opacity:1}to{opacity:0}}.usa-stars.svelte-veun4w{background:linear-gradient(324deg,#3c3b6e 4%,transparent 4%) -.7in .43in,linear-gradient(36deg,#3c3b6e 4%,transparent 4%) .3in .43in,linear-gradient(72deg,#fff 8.5%,transparent 8.5%) .3in .43in,linear-gradient(288deg,#fff 8.5%,transparent 8.5%) -.7in .43in,linear-gradient(216deg,#fff 7.5%,transparent 7.5%) -.7in .23in,linear-gradient(144deg,#fff 7.5%,transparent 7.5%) .3in .23in,linear-gradient(324deg,#3c3b6e 4%,transparent 4%) -.2in .93in,linear-gradient(36deg,#3c3b6e 4%,transparent 4%) .8in .93in,linear-gradient(72deg,#fff 8.5%,transparent 8.5%) .8in .93in,linear-gradient(288deg,#fff 8.5%,transparent 8.5%) -.2in .93in,linear-gradient(216deg,#fff 7.5%,transparent 7.5%) -.2in .73in,linear-gradient(144deg,#fff 7.5%,transparent 7.5%) .8in .73in,#3c3b6e;background-size:1in 1in}.usa-radial.svelte-veun4w{background:radial-gradient(circle at 50% 0,#fff,#fff .2in,0,#3c3b6e .4in,0,#fff .6in,0,#b22234 .8in,0,#fff 1.2in),#fff;background-size:1.4in 100%;background-position:50% 0;background-repeat:repeat-x}@font-face{font-family:Patriotic;src:local(""),url(../../../fonts/patriot-font/Patriot-xxgr.ttf) format("truetype")}@font-face{font-family:SuperDessert;src:local(""),url(../../../fonts/super-dessert-font/SuperDessert-EaAyj.ttf) format("truetype")}.main-font.svelte-veun4w{font-family:SuperDessert}@media (min-width: 721px){.header-font.svelte-veun4w{font-size:55px}}.header-font.svelte-veun4w{font-family:Patriotic}.gradient-background.svelte-veun4w{background:radial-gradient(circle,#f99,#fff,#99f);width:100%;height:100%}
-<style>
-        .video-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 50vw; /* Adjust the width to make the video half the viewport width */
-            height: 0;
-            padding-bottom: 28.125%; /* 16:9 aspect ratio for half viewport width */
-        }
-        
-        .video-container iframe {
-            width: 100%;
-            height: 100%;
-        }
 
-        @media screen and (max-width: 768px) {
-            .video-container {
-                width: 100%; /* Reset width for smaller screens */
-                padding-bottom: 56.25%; /* Adjust aspect ratio for smaller screens */
-            }
-        }
-    </style>
