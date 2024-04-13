@@ -15,9 +15,9 @@
 			<style>
     .video-container {
         position: relative;
-        width: 100%;
+        width: 50%; /* Adjust the width to make the video half the size */
         height: 0;
-        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        padding-bottom: 28.125%; /* 16:9 aspect ratio for half width */
     }
     
     .video-container iframe {
@@ -30,13 +30,15 @@
 
     @media screen and (max-width: 768px) {
         .video-container {
-            padding-bottom: 75%; /* Adjust aspect ratio for smaller screens */
+            width: 100%; /* Reset width for smaller screens */
+            padding-bottom: 56.25%; /* Adjust aspect ratio for smaller screens */
         }
     }
 </style>
 <div class="video-container">
     <iframe src="https://www.youtube.com/embed/1Zr43x4zOtk" frameborder="0" allowfullscreen></iframe>
 </div>
+
 
 
  
